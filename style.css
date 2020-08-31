@@ -1,0 +1,17 @@
+.body-overflow{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.display-no{
+    display: none;
+}
+.img-index {
+    max-width: 100%;
+    width    : 100%;
+    vertical-align:top;
+  }
+
+.test3{
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
