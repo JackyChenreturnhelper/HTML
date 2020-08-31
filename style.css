@@ -1,3 +1,4 @@
+
 .body-overflow{
     overflow-y: hidden;
     overflow-x: hidden;
@@ -6,12 +7,19 @@
     display: none;
 }
 .img-index {
-    max-width: 100%;
-    width    : 100%;
-    vertical-align:top;
+width: 100%;
+height: auto;
+vertical-align:top;
   }
-
-.test3{
-    overflow-x: scroll;
-    overflow-y: scroll;
-}
+ .smallscreen {
+    display: none;
+  }
+  /* 如果使用者視窗寬度 <= 768px */
+  @media screen and (max-width: 768px) {
+    .img-index {
+      display: none;
+    }
+    .smallscreen {
+      display: block;
+    }
+  }
