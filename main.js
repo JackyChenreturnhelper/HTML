@@ -14,12 +14,29 @@ window.onresize = function(){
 var indeximg = document.getElementById("indeximg");
 
 indeximg.addEventListener("click", function (event) {
-    document.getElementById("indeximg").classList.add("display-no");
+    waithide("indeximg");
     document.getElementById("indexbody").classList.remove("display-no");
 });
 var indexmimg = document.getElementById("indexmimg");
 indexmimg.addEventListener("click", function (event) {
-    document.getElementById('indexmimg').className = '';
-    document.getElementById("indexmimg").classList.add("display-no");
+
+    waithide("indexmimg");
     document.getElementById("indexbody").classList.remove("display-no");
 });
+
+function waithide(indeximg)
+{
+    var obj = document.getElementById(indeximg);
+
+    obj.style.opacity = '0';
+
+    window.setTimeout(
+
+    function removethis()
+
+    {
+
+     obj.style.display='none';
+
+    }, 300);
+}

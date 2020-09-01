@@ -9,7 +9,8 @@
 .img-index {
 width: 100%;
 height: auto;
-vertical-align:top;
+vertical-align:top; opacity:1;
+transition : all .3s;
   }
  .smallscreen {
     display: none;
