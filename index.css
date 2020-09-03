@@ -362,6 +362,15 @@ template {
   right:3%;
   font-size: 3vh;
   color:white;
+  transition : all .3s;
+}
+.img-more:hover{
+
+  bottom:1%;
+  right:4%;
+  border:2px rgb(207, 197, 197) solid;
+  border-radius:5px;
+  border-width:0.5rem;
 }
 
 [hidden] {
