@@ -352,6 +352,17 @@ summary {
 template {
   display: none;
 }
+.position-r{
+  position: relative
+}
+
+.img-more{
+  position: absolute;
+  bottom:0.7rem;
+  right:1.3rem;
+  font-size: 2.5rem;
+  color:white;
+}
 
 [hidden] {
   display: none !important;
@@ -476,6 +487,9 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.img-w100{
+  width: 100%
 }
 
 .img-thumbnail {

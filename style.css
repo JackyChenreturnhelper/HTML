@@ -24,6 +24,3 @@ transition : all .3s;
       display: block;
     }
   }
-  map *:focus{
-    outline:none;
-    }

@@ -7,13 +7,14 @@ var indeximg = document.getElementById("indeximg");
 
 indeximg.addEventListener("click", function (event) {
     waithide("indeximg");
-
+    waithide("indexmimg");
     document.getElementById("indexbody").classList.remove("display-no");
 });
 var indexmimg = document.getElementById("indexmimg");
 indexmimg.addEventListener("click", function (event) {
 
     waithide("indexmimg");
+    waithide("indeximg");
     document.getElementById("indexbody").classList.remove("display-no");
 });
 function imageswh(){

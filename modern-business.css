@@ -1,20 +1,22 @@
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/templates/modern-business)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
-
-
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.display-no{
+  display: none;
 }
+.img-index {
+  width: 100%;
+  height: auto;
+  vertical-align:top; opacity:1;
+  transition : all .3s;
+    }
 
-.portfolio-item {
-  margin-bottom: 30px;
-}
+    .smallscreen {
+      display: none;
+    }
+    /* 如果使用者視窗寬度 <= 768px */
+    @media screen and (max-width: 768px) {
+      .img-index {
+        display: none;
+      }
+      .smallscreen {
+        display: block;
+      }
+    }
