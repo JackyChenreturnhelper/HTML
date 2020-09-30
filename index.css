@@ -10119,6 +10119,21 @@ hr.light {
   }
 }
 
+section.masthead{
+  margin-top:4rem;
+
+
+
+  width: 100%;
+}
+section.about{
+  background-image:  url("./images/ABOUT.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 header.masthead {
   margin-top:4rem;
   padding-bottom: calc(10rem);
